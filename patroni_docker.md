@@ -1,14 +1,14 @@
+###  General docker based instruction
 
 
-
-Структура:
+Примерная структура:
 ```bash
-        etcd (DCS)
-         |
- -----------------
- |       |       |
-pg1     pg2     pg3
-(master)(replica)(replica)
+      etcd (DCS)
+      |
+ ---------
+ |       |
+pg1     pg2
+(master)(replica)
    |
  logical → analytics / backup / BI
 ```
